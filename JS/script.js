@@ -12,5 +12,6 @@
 // answer[2] = prompt("Вы женаты?");
 
 // document.write(answer);
-const name = "Rus";
-console.log(`Hello ${name}`);
+const nik = "Rus";
+console.log(`Hello ${nik}`);
+let user = 111;

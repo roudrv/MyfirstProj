@@ -1,19 +1,18 @@
 "use strict";
-//let number = 10;
-//console.log(number);
-//alert("Hello");
-//const result = confirm("Are you here?");
-// const answer = +prompt("Вам есть 18?", "18");
-// console.log(typeof(answer));
+//1
+const numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?","");
+//2
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    private: false 
+};
+//3
+let a = prompt("Один из последних просмотренных фильмов?",""),
+    b = prompt("На сколько оцениете его?","");
 
-// const answer = [];
-// answer[0] = prompt("Как вас зовут?");
-// answer[1] = prompt("Сколько вам лет?");
-// answer[2] = prompt("Вы женаты?");
+    personalMovieDB.movies[a] = b; 
 
-// // document.write(answer);
-// const nik = "Rus";
-// console.log(`Hello ${nik}`);
-// let user = 111;
-let numberOfFilms = prompt("Сколько фильмов вы уже посмотрели?");
-alert(numberOfFilms);
+ console.log(personalMovieDB);   

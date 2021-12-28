@@ -11,7 +11,9 @@
 // answer[1] = prompt("Сколько вам лет?");
 // answer[2] = prompt("Вы женаты?");
 
-// document.write(answer);
-const nik = "Rus";
-console.log(`Hello ${nik}`);
-let user = 111;
+// // document.write(answer);
+// const nik = "Rus";
+// console.log(`Hello ${nik}`);
+// let user = 111;
+let numberOfFilms = prompt("Сколько фильмов вы уже посмотрели?");
+alert(numberOfFilms);
